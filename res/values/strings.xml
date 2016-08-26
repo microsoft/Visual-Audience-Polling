@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Visual Audience Polling</string>
+    <string name="choose_option">Choose an option below</string>
+    <string name="qset_content">Question Set Content</string>
+    <string name="cam_settings">Camera Settings</string>
+    <string name="pre_att_start">Attendance Results are available for the roster -  </string>
+    <string name="pre_att_end">.Do you want to proceed with it?  </string>
+    <string name="pre_att_pos">Yes</string>
+    <string name="pre_att_neg">No</string>
+    <string name="show_next_quiz_ques">Next Question</string>
+    <string name="add_more_entries">Add More Entries</string>
+    <string name="exit_add_entry">Exit</string>
+    <string name = "ask_again">Ask Again</string>
+    <string name="lonely_here">Its lonely here. Please create a new file to get started</string>
+    <string name="lonely_qset">Its lonely here. Add a Question Set from drive or lookup files on your phone!</string>
+    
+    <string name="action_roster_start">Currently roster \: </string>
+    <string name="action_roster_end"> &#160;is selected. Do you want to deselect it? </string>
+     <string name="action_quest_start">Currently question set \: </string>
+    <string name="action_quest_end"> &#160;is selected. Do you want to deselect it? </string>
+     <string name="action_att_start">Currently attendance result for  \: </string>
+    <string name="action_att_end"> &#160;are selected. Do you want to deselect it? </string>
+    
+    <string name="highlight_cards">HighLight Cards</string>
+    <string name="hide_missing">Hide missing entries</string>
+    <string name="show_binarize">Show binary view</string>
+    <string name="switch_roster">Change current roster</string>
+    <string name="remove_roster">Remove current roster</string>
+    <string name="switch_qset">Change current question set</string>
+    <string name="remove_qset">Remove current question set</string>
+    <string name="switch_adaptive">Adaptive Threshold</string>
+    <string name="action_keep">Keep</string>
+     <string name="action_remove">Deselect</string>
+    <string name="delete_button_pos">Yes</string>
+    <string name="file_rename_fname">Enter a new file name</string>
+    <string name="delete_button_neg">Cancel</string>
+    <string name="cam_attendance">Camera Attendance</string>
+    <string name="add_from_drive">Add Roster from Drive</string>
+    <string name="roster_list_quick">Go to Quick Poll</string>
+    <string name="roster_list_create">Create New Roster</string>
+    <string name="add_qset_from_drive">Add Qusetion Set from Drive</string>
+    <string name="attendance_button">Show Results</string>
+    <string name="attendance_choice">Attendance Choice</string>
+    <string name="load_qset">Load Question Set from Device</string>
+    <string name="load_drive_qset">Load Question Set from Drive</string>
+    <string name="save_attendance_results">Save Attendance results</string>
+    <string name="no_changes">No changes to save!</string>
+    <string name="analyse_graph">Graph</string>
+    <string name="id_exists_message">Please enter a different ID. This ID is already in use.</string>
+    <string name="file_exists_message">Please enter a different File name. This File Name is already in use.</string>
+    <string name="id_exists_title">Duplicate ID</string>
+    <string name="file_exists_title">Duplicate File Name</string>
+    <string name="attendance_results">Attendance Results</string>
+    <string name="att_general">Quick Attendance(without roster)</string>
+    <string name="quiz_general">General Quiz(without roster)</string>
+    <string name="get_card_string">We\'ll send you the first batch of printed cards through email. Please choose an account below, on which you want to receive the mail with the cards.</string>
+    <string name="get_card_email">If your email account is not listed above, please enter an email id in the space below \:</string>
+    <string name="get_card_enter_email">Enter your email id</string>
+    <string name="get_card_list_button">Get Cards</string>
+    <string name="get_card_entry_button">Get Cards</string>
+    <string name="save_exit">Save &#038; Exit</string>
+    <string name="exit_poll">Exit</string>
+    <string name="edit_delete_dialog">Edit or delete the selected entry</string>
+    <string name="edit_delete_dialog_edit">Edit</string>
+    <string name="start_new_poll">Start New Poll</string>
+    <string name="quit_poll">Quit Poll</string>
+    <string name="edit_delete_dialog_delete">Delete</string>
+    <string name="att_roster">Roster Based Attendance</string>
+    <string name="quiz_roster">Roster Based Quiz</string>
+    <string name="quiz_choice">Quiz Choice</string>
+    <string name="next_ques_button">Next Question</string>
+    <string name="start_stop_poll">Start poll</string>
+    <string name="choose_roster">Choose a Roster</string>
+    <string name="choose_qset_button">Choose Qusetion Set</string>
+    <string name="quick_poll">Quick Poll</string>
+    <string name="finish_view">This Question Set has no more questions. Please click \"Finish Poll\" button to save the results. </string>
+    <string name="finish_poll_button">End Quiz</string>
+    <string name="finish_attendance_button">Finish Attendance</string>
+    <string name="save_attendance_dialog">Enter a name for this session</string>
+    <string name="save_attendance_button">Save Results</string>
+    <string name="student_name">Enter Student\'s Name</string>
+    <string name="student_id">Enter the QCard ID to be assigned</string>
+    <string name="new_roster_name">Enter Student\'s Name</string>
+    <string name="qset_new_name">Enter a name for new Question Set</string>
+    <string name="add_roster_entry">Add to Roster</string>
+    <string name="edit_done">Done Editing</string>
+    <string name="add_new">Add More</string>
+    <string name="add_roster_entries">Add Entries</string>
+    <string name="done_editing_roster">Done editing roster</string>
+    <string name="new_roster_id">Enter the QCard ID to be assigned</string>
+    <string name="roster_content">Roster Entries</string>
+    <string name="dialog_save_as_new_roster">Save as New</string>
+    <string name="activity_jump_in">Jump In</string>
+    <string name="dialog_overwrite_existing">Overwrite</string>
+    <string name="roster_new_name">Enter a name for new roster</string>
+    <string name="create_roster">Create Roster</string>
+    <string name="create_new_roster">Create New Roster</string>
+    <string name="qset_list_head">Choose a Question Set</string>
+    <string name="start_attendance_button">Start Attendance</string>
+    <string name="start_quiz_button">Start Quiz</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="blur_text">Switch Blur</string>
+    <string name="first_first"><font fgcolor="#FFFFFFFF">First Time Here?</font></string>
+    <string name="first_get"><font fgcolor="#FFFFFFFF">Get Cards</font></string>
+    <string name="first_jump"><font fgcolor="#FFFFFFFF">Jump In</font></string>
+    <string name="ft_quick"><font fgcolor="#FFFFFFFF">Quick Walkthrough</font></string>
+    <string name="ft_watch"><font fgcolor="#FFFFFFFF">Watch Video</font></string>
+    <string name="ft_print"><font fgcolor="#FFFFFFFF">Print Cards</font></string>
+    <string name="yt_text"><font fgcolor="#FFFFFFFF">Print Cards</font></string>
+    <string name="j_quick"><font fgcolor="#FFFFFFFF">Quick Poll</font></string>
+    <string name="j_quiz"><font fgcolor="#FFFFFFFF">Quiz</font></string>
+    <string name="j_attendance"><font fgcolor="#FFFFFFFF">Attendance</font></string>
+    <string name="j_manage"><font fgcolor="#FFFFFFFF">Manage Roster</font></string>
+    <string name="j_analysis"><font fgcolor="#FFFFFFFF">Analysis</font></string>
+    <string name="j_attendance_existing"><font fgcolor="#FFFFFFFF">Use Existing Roster</font></string>
+    <string name="j_attendance_new"><font fgcolor="#FFFFFFFF">Create New Roster</font></string>
+    <string name="j_attendance_camera"><font fgcolor="#FFFFFFFF">Use Camera</font></string>
+    <string name="j_attendance_new_load"><font fgcolor="#FFFFFFFF">Load from CSV</font></string>
+    <string name="j_attendance_new_create"><font fgcolor="#FFFFFFFF">Create New Roster</font></string>
+
+</resources>

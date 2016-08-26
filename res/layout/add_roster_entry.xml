@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:clickable="true"
+        android:elevation="5dp"
+        card_view:cardBackgroundColor="@color/first_buttons"
+        android:foreground="?android:attr/selectableItemBackground"
+        card_view:cardCornerRadius="4dp" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp" >
+
+            <EditText
+                android:id="@+id/sName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:hint="@string/student_name"
+                android:layout_alignParentTop="true">
+
+                <requestFocus />
+            </EditText>
+
+            <EditText
+                android:id="@+id/sId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/sName"
+                android:inputType="numberSigned"
+                android:hint="@string/student_id"/>
+
+            <Button
+                android:id="@+id/saveChanges"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/sId"
+                android:onClick="saveAsNew"
+                android:text="@string/edit_done" />
+
+            <Button
+                android:id="@+id/addMore"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/sId"
+                android:layout_alignParentRight="true"
+                android:layout_toRightOf="@+id/saveChanges"
+                android:text="@string/add_new" />
+
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

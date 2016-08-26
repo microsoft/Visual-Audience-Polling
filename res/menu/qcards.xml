@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.abhinav.qcards.QCardsActivity" >
+
+
+    <item
+        android:id="@+id/roster"
+        android:icon="@drawable/roster_ok_96"
+        android:title="Roster"
+        app:showAsAction="ifRoom">"
+    </item>
+    <item
+        android:id="@+id/attendance"
+        android:icon="@drawable/attendance_ok_96"
+        android:title="Attendance"
+        app:showAsAction="always">
+    </item>
+    <item
+        android:id="@+id/qset"
+        android:checked="true"
+        android:icon="@drawable/quest_ok_96"
+        android:title="Question"
+        app:showAsAction="always">
+    </item>
+
+</menu>

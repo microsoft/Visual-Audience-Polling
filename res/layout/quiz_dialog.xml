@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/show_entry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        card_view:cardBackgroundColor="@color/first_buttons"
+        card_view:elevation="5dp" >
+
+            <ScrollView
+                android:id="@+id/scrollView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignTop="@+id/quest" >
+
+                <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp" >
+
+            <TextView
+                android:id="@+id/quesNum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/quest"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/quesNum"
+                android:layout_toRightOf="@+id/quesNum"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="7dp"
+                android:gravity="center_vertical"
+                android:text="contact detvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv"
+                android:textSize="12dp" />
+
+            <TextView
+                android:id="@+id/labelA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/quest"
+                android:text="A."
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/opA"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/labelA"
+                android:layout_below="@+id/quest"
+                android:layout_alignBaseline="@+id/labelA"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="7dp"
+                android:text="Present"
+                android:textSize="10dp" />
+
+            <TextView
+                android:id="@+id/labelB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/labelA"
+                android:text="B."
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/opB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/labelB"
+                android:layout_below="@+id/opA"
+                android:gravity="center_vertical"
+                android:layout_alignBaseline="@+id/labelB"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="7dp"
+                android:text="Name"
+                android:textSize="10dp" />
+
+            <TextView
+                android:id="@+id/labelC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/labelB"
+                android:text="C."
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/opC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/labelC"
+                android:layout_below="@+id/opB"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="7dp"
+                android:layout_alignBaseline="@+id/labelC"
+                android:gravity="center_vertical"
+                android:text="Name"
+                android:textSize="10dp" />
+
+            <TextView
+                android:id="@+id/labelD"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/labelC"
+                android:text="D."
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/opD"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/labelD"
+                android:layout_below="@+id/opC"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="7dp"
+                android:layout_alignBaseline="@+id/labelD"
+                android:gravity="center_vertical"
+                android:text="Name"
+                android:textSize="10dp" />
+
+            <Button
+                android:id="@+id/eachPoll"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/opD"
+                android:text="Take Poll" />
+ </RelativeLayout>
+            </ScrollView>
+
+       
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

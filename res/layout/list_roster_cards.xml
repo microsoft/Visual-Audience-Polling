@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view_roster_list"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:clickable="true"
+        android:elevation="5dp"
+        android:foreground="?android:attr/selectableItemBackground">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp" >
+
+            <TextView
+                android:id="@+id/rName"
+                android:text="left" 
+        android:layout_width="0dp" 
+        android:layout_height="wrap_content" 
+        android:layout_weight=".50" 
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/rNum"
+                android:text="right" 
+        android:layout_width="0dp" 
+        android:gravity="right"
+        android:layout_height="wrap_content" 
+        android:layout_weight=".50" 
+                android:textSize="20sp" />
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

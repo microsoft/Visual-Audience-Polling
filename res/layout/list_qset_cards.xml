@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:clickable="true"
+        android:elevation="5dp"
+        android:foreground="?android:attr/selectableItemBackground"
+        card_view:cardCornerRadius="4dp" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp" >
+
+            <TextView
+                android:id="@+id/quesNum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/quesNum"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:text="1."
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/quest"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/quesNum"
+                android:layout_toRightOf="@+id/quesNum"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="7dp"
+                android:gravity="center_vertical"
+                android:text=""
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/labelA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/quest"
+                android:text="A."
+                android:visibility="gone"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/opA"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/labelA"
+                android:layout_below="@+id/quest"
+                android:layout_alignBaseline="@+id/labelA"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="7dp"
+                android:visibility="gone"
+                android:textSize="10dp" />
+
+            <TextView
+                android:id="@+id/labelB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/labelA"
+                android:text="B."
+                android:visibility="gone"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/opB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/labelB"
+                android:layout_below="@+id/opA"
+                android:gravity="center_vertical"
+                android:layout_alignBaseline="@+id/labelB"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="7dp"
+                android:visibility="gone"
+                android:textSize="10dp" />
+
+            <TextView
+                android:id="@+id/labelC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/labelB"
+                android:text="C."
+                android:visibility="gone"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/opC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/labelC"
+                android:layout_below="@+id/opB"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="7dp"
+                android:layout_alignBaseline="@+id/labelC"
+                android:gravity="center_vertical"
+                android:visibility="gone"
+                android:textSize="10dp" />
+
+            <TextView
+                android:id="@+id/labelD"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/labelC"
+                android:text="D."
+                android:visibility="gone"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/opD"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/labelD"
+                android:layout_below="@+id/opC"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="7dp"
+                android:layout_alignBaseline="@+id/labelD"
+                android:gravity="center_vertical"
+                android:visibility="gone"
+                android:textSize="10dp" />
+
+            <ImageButton
+                android:id="@+id/showQuesButton"
+                android:layout_width="24dp"
+                android:layout_height="14dp"
+                android:layout_alignBottom="@id/quest"
+                android:layout_alignParentRight="true"
+                android:layout_alignRight="@+id/quest"
+                android:elevation="5dp"
+                android:background="@drawable/drop_down_ques_definition"
+                android:scaleType="fitCenter" />
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

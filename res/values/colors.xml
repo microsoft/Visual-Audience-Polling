@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="first_buttons">#71C3DE</color>
+    <color name="blur_text">#FF0000</color>
+    <color name="name_id_modified">#EDE6EA</color>
+    <color name="get_cards">#F7FAFC</color>
+    <color name="get_cards_text">#FFFFFF</color>
+    <color name="get_cards_spin">#F5F5F5</color>
+    <color name="current_roster_card">#A3C918</color>
+    <color name="missing_text">#FF0000</color>
+    <color name="missing_back">#000000</color>
+    <color name="chart_a">#ff7b00</color>
+    <color name="chart_b">#ffb700</color>
+    <color name="chart_c">#71debb</color>
+    <color name="chart_d">#718cde</color>
+    <color name="chart_x">#d64d56</color>
+    <color name="chart_corr">#3BB809</color>
+    <color name="chart_incorr">#F70000</color>
+    
+</resources>

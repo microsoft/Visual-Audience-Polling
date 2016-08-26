@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:layout_margin="10dp" >
+ 
+    <Switch
+        android:id="@+id/highlight_cards"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/highlight_cards"
+        android:onClick="highlightCards"/>
+
+    <Switch
+        android:id="@+id/hide_missing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hide_missing"
+        android:onClick="hideMissing"/>
+    <Switch
+        android:id="@+id/show_binarize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@+string/show_binarize"
+        android:onClick="showBinarize"/>
+
+    <Switch
+        android:id="@+id/apply_roster"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/switch_roster" 
+        android:onClick="applyRoster"/>
+
+    <Switch
+        android:id="@+id/apply_qset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/switch_qset"
+        android:onClick="applyQset"/>
+
+<Switch
+        android:id="@+id/apply_adaptive"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/switch_adaptive"
+        android:onClick="applyAdaptive"/>
+
+</LinearLayout>

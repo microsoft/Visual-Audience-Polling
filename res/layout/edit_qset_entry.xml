@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/editQues"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10" />
+
+        <EditText
+            android:id="@+id/editA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editQues"
+            android:ems="10" />
+
+        <EditText
+            android:id="@+id/editB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editA"
+            android:ems="10" />
+            
+        <EditText
+            android:id="@+id/editC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editB"
+            android:ems="10" />
+            
+        <EditText
+            android:id="@+id/editD"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editC"
+            android:ems="10" >
+            
+            <requestFocus />
+        </EditText>
+
+        <Button
+            android:id="@+id/editDone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editD"
+            android:layout_alignParentRight="true"
+            android:text="@string/edit_done" />
+
+    </RelativeLayout>
+
